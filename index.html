@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Number Game</h1>
+        <button type="submit" class="sub-btn">
+            <input type="number" name="btn-clk" id="inputId" pattern="/^-?\d+\.?\d*$/"
+                onKeyPress="if(this.value.length==3) return false;" >
+        </button>
+        <button class="btn-submit" onclick="randomnumber()">Submit</button>
+        <p style="display: none;" id="won-match">Conguratulationlly You Caught It</p>
+        <p style="display: none;" id="low-value">You Are Enter Too Low Value Compare To Computer Values</p>
+        <p style="display: none;" id="high-value">You Are Entered Too High Value Compare To Computer Values</p>
+        <div class="btn-start" style="display: none;" >
+            <button id="restart" class="">Restart</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

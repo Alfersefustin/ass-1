@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #517ac0;
+    color: #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    padding-top: 10px;
+}
+#btnclk{
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 207px;
+    padding: 7px;
+}
+.sub-btn{
+    border: none;
+}
+.won-match{
+    font-size: 16px;
+}
+.low-value{
+    font-size: 12px;
+}
+.high-value{
+    font-size: 12px;
+}
+#inputId{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-submit{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 15px;
+}
