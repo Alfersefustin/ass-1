@@ -27,9 +27,11 @@ function randomnumber(a) {
         document.getElementById("won-match").style.display = "none";
     }
     incrementValue++;
-    if (incrementValue <= 10) {
-        alert("your chances Finished")
+    if (incrementValue >= 2) {
+        alert("Your Are Lost")
+        document.getElementById("restart").style.display = "block";
         return false
+        
     }
-    document.getElementById("restart").style.display = "block";
+    
 }
